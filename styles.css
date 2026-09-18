@@ -165,6 +165,10 @@ html[data-theme="dark"] .theme-toggle .icon-moon {
   font-size: 1.05rem;
 }
 
+.submit-game {
+  margin-top: 1.25rem;
+}
+
 main {
   max-width: 1100px;
   margin: 0 auto;
