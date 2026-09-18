@@ -165,7 +165,10 @@ html[data-theme="dark"] .theme-toggle .icon-moon {
   font-size: 1.05rem;
 }
 
-.submit-game {
+.header-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
   margin-top: 1.25rem;
 }
 
