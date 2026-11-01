@@ -613,7 +613,7 @@ async function loadPlaytests() {
     items.forEach((item) => itemsById.set(item.id, item));
 
     if (!items.length) {
-      setStatus("No playtests found in the sheet yet.");
+      setStatus("No games submitted yet. Submit yours above.");
       return;
     }
 

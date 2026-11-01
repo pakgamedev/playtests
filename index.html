@@ -6,7 +6,7 @@
     <title>Playtest Games</title>
     <meta
       name="description"
-      content="Open playtest builds looking for players. Browse live playtests, trailers, and store page feedback from indie developers."
+      content="Submit your games for playtests, give feedback and share knowledge. Playtests every Saturday around 6PM (Pakistan Time). Game list wiped after."
     />
     <meta name="theme-color" content="#e85d04" />
     <link rel="canonical" href="https://pakgamedev.github.io/playtests/" />
@@ -17,7 +17,7 @@
     <meta property="og:title" content="Playtest Games" />
     <meta
       property="og:description"
-      content="Open playtest builds looking for players. Browse live playtests, trailers, and store page feedback from indie developers."
+      content="Submit your games for playtests, give feedback and share knowledge. Playtests every Saturday around 6PM (Pakistan Time). Game list wiped after."
     />
     <meta property="og:url" content="https://pakgamedev.github.io/playtests/" />
     <meta
@@ -27,20 +27,26 @@
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1280" />
     <meta property="og:image:height" content="720" />
-    <meta property="og:image:alt" content="Playtest Games — open builds looking for players" />
+    <meta
+      property="og:image:alt"
+      content="Playtest Games: submit games, give feedback, share knowledge"
+    />
 
     <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Playtest Games" />
     <meta
       name="twitter:description"
-      content="Open playtest builds looking for players. Browse live playtests, trailers, and store page feedback from indie developers."
+      content="Submit your games for playtests, give feedback and share knowledge. Playtests every Saturday around 6PM (Pakistan Time). Game list wiped after."
     />
     <meta
       name="twitter:image"
       content="https://pakgamedev.github.io/playtests/og-image.png"
     />
-    <meta name="twitter:image:alt" content="Playtest Games — open builds looking for players" />
+    <meta
+      name="twitter:image:alt"
+      content="Playtest Games: submit games, give feedback, share knowledge"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -61,11 +67,39 @@
   <body>
     <div class="bg" aria-hidden="true"></div>
 
+    <nav class="org-bar" aria-label="Pakistan Game Dev">
+      <a class="org-brand" href="https://pakgamedev.com/">
+        <img
+          class="org-icon"
+          src="https://pakgamedev.com/files/community-animated-icon.png"
+          alt=""
+          width="40"
+          height="40"
+        />
+        <span class="org-copy">
+          <span class="org-name">Pakistan Game Dev</span>
+          <span class="org-sub">Community in Pakistan</span>
+        </span>
+      </a>
+      <a
+        class="org-discord"
+        href="https://pakgamedev.com/discord"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Join Discord
+      </a>
+    </nav>
+
     <header class="site-header">
       <div class="header-top">
         <div>
           <p class="brand">Playtest Games</p>
-          <p class="tagline">Open builds looking for players. Playtests every Saturday around 6PM (Pakistan Time). Game list wiped after.</p>
+          <p class="tagline">
+            Submit your games for playtests, give feedback and share knowledge.
+            Playtests every Saturday around 6PM (Pakistan Time). Game list wiped
+            after.
+          </p>
           <div class="header-ctas">
             <a
               class="btn btn-primary"
@@ -96,7 +130,9 @@
         >
           <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
             <circle cx="12" cy="12" r="4"></circle>
-            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+            <path
+              d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"
+            ></path>
           </svg>
           <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
             <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3 7 7 0 1 0 21 14.5z"></path>
@@ -108,7 +144,56 @@
     <main>
       <section class="status" id="status" aria-live="polite">Loading playtests…</section>
       <section class="listings" id="grid" hidden></section>
+
+      <section class="how-it-works" aria-labelledby="how-title">
+        <h2 class="how-title" id="how-title">How it works</h2>
+        <ol class="how-steps">
+          <li>
+            <strong>Submit a game</strong>
+            Use the form above. Your build shows up on this list for the week’s
+            session. After Saturday, the list is wiped. Submitting also means
+            you’ll help playtest others: playtest for playtest.
+          </li>
+          <li>
+            <strong>Join Discord (and optionally sign up)</strong>
+            Sessions run in the PakGameDev Discord. Sign up as a playtester if
+            you want reminders; most people both submit and playtest.
+          </li>
+          <li>
+            <strong>Show up Saturday ~6PM (Pakistan Time)</strong>
+            Members in Discord stream the live playtests at that time. Browse
+            this list beforehand so you know what’s on, but don’t play the builds
+            early. Keep your first impressions for the stream.
+          </li>
+          <li>
+            <strong>Stream it live and give fresh feedback</strong>
+            Play on stream so others hear your unspoiled thoughts in the moment.
+            If you submitted a game, be there while it’s played.
+          </li>
+        </ol>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-links">
+          <a href="https://pakgamedev.com/">Home</a>
+          <a
+            href="https://pakgamedev.com/discord"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Discord</a
+          >
+          <a href="https://pakgamedev.com/club">Game Dev Club</a>
+          <a href="https://pakgamedev.com/awards">Awards</a>
+        </div>
+        <p class="footer-status">
+          <span>Community status:</span>
+          <span class="footer-online">Online</span>
+        </p>
+        <p class="footer-copy">&copy; 2026 PakGameDev Community.</p>
+      </div>
+    </footer>
 
     <dialog class="modal" id="modal" aria-labelledby="modal-title">
       <article class="modal-card">
